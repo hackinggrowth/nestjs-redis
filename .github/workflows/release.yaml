@@ -14,7 +14,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@hackinggrowth'
           cache: 'pnpm'
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install
       - run: pnpm -r lint
       - run: pnpm -r build
       - run: pnpm -r publish
