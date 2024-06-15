@@ -41,22 +41,23 @@
     "tslib": "2.4.1"
   },
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.0",
-    "ioredis": "^5.0.0"
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/terminus": "^10.0.0",
+    "ioredis": "^5.4.0"
   },
   "engines": {
-    "node": ">=12.22.0"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/liaoliaots/nestjs-redis#readme",
+  "homepage": "https://github.com/hackinggrowth/nestjs-redis#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liaoliaots/nestjs-redis.git"
+    "url": "git+https://github.com/hackinggrowth/nestjs-redis.git"
   },
   "bugs": {
-    "url": "https://github.com/liaoliaots/nestjs-redis/issues"
+    "url": "https://github.com/hackinggrowth/nestjs-redis/issues"
   }
 }
