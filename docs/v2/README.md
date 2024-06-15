@@ -3,10 +3,10 @@
 [![npm (tag)](https://img.shields.io/npm/v/@hackinggrowth/nestjs-redis/latest?style=flat-square)](https://www.npmjs.com/package/@hackinggrowth/nestjs-redis)
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@hackinggrowth/nestjs-redis/next?style=flat-square)](https://www.npmjs.com/package/@hackinggrowth/nestjs-redis/v/3.0.0-next.2)
 ![npm](https://img.shields.io/npm/dw/@hackinggrowth/nestjs-redis?style=flat-square)
-[![GitHub](https://img.shields.io/github/license/liaoliaots/nestjs-redis?style=flat-square)](https://github.com/liaoliaots/nestjs-redis/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/liaoliaots/nestjs-redis?style=flat-square)](https://github.com/hackinggrowth/nestjs-redis/blob/main/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![CodeFactor](https://www.codefactor.io/repository/github/liaoliaots/nestjs-redis/badge)](https://www.codefactor.io/repository/github/liaoliaots/nestjs-redis)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/liaoliaots/nestjs-redis/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/hackinggrowth/nestjs-redis/graphs/commit-activity)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 > Redis([ioredis](https://github.com/luin/ioredis)) module for NestJS framework
@@ -806,7 +806,7 @@ export class AppModule {}
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/liaoliaots/nestjs-redis/issues).
+Feel free to check [issues page](https://github.com/hackinggrowth/nestjs-redis/issues).
 
 ## Show your support
 
@@ -816,7 +816,7 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [LiaoLiao](https://github.com/liaoliaots).
 
-This project is [MIT](https://github.com/liaoliaots/nestjs-redis/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/hackinggrowth/nestjs-redis/blob/main/LICENSE) licensed.
 
 ---
 

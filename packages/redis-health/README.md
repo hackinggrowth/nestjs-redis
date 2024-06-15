@@ -20,9 +20,9 @@
     <a href="#usage"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/liaoliaots/nestjs-redis/issues">Report Bug</a>
+    <a href="https://github.com/hackinggrowth/nestjs-redis/issues">Report Bug</a>
     ·
-    <a href="https://github.com/liaoliaots/nestjs-redis/issues">Request Feature</a>
+    <a href="https://github.com/hackinggrowth/nestjs-redis/issues">Request Feature</a>
   </p>
 </div>
 
@@ -176,9 +176,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [downloads-shield]: https://img.shields.io/npm/dm/@hackinggrowth/nestjs-redis-health?style=for-the-badge
 [downloads-url]: https://www.npmjs.com/package/@hackinggrowth/nestjs-redis-health
 [stars-shield]: https://img.shields.io/github/stars/liaoliaots/nestjs-redis?style=for-the-badge
-[stars-url]: https://github.com/liaoliaots/nestjs-redis/stargazers
+[stars-url]: https://github.com/hackinggrowth/nestjs-redis/stargazers
 [issues-shield]: https://img.shields.io/github/issues/liaoliaots/nestjs-redis?style=for-the-badge
-[issues-url]: https://github.com/liaoliaots/nestjs-redis/issues
+[issues-url]: https://github.com/hackinggrowth/nestjs-redis/issues
 [license-shield]: https://img.shields.io/npm/l/@hackinggrowth/nestjs-redis?style=for-the-badge
-[license-url]: https://github.com/liaoliaots/nestjs-redis/blob/main/LICENSE
+[license-url]: https://github.com/hackinggrowth/nestjs-redis/blob/main/LICENSE
 [vulnerabilities-shield]: https://img.shields.io/snyk/vulnerabilities/npm/@hackinggrowth/nestjs-redis-health?style=for-the-badge
