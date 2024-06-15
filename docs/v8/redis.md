@@ -4,7 +4,7 @@
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -30,7 +30,7 @@ via decorator:
 
 ```TypeScript
 import { Injectable } from '@nestjs/common';
-import { InjectRedis, DEFAULT_REDIS_NAMESPACE } from '@liaoliaots/nestjs-redis';
+import { InjectRedis, DEFAULT_REDIS_NAMESPACE } from '@hackinggrowth/nestjs-redis';
 import Redis from 'ioredis';
 
 @Injectable()
@@ -51,7 +51,7 @@ via service:
 
 ```TypeScript
 import { Injectable } from '@nestjs/common';
-import { RedisService, DEFAULT_REDIS_NAMESPACE } from '@liaoliaots/nestjs-redis';
+import { RedisService, DEFAULT_REDIS_NAMESPACE } from '@hackinggrowth/nestjs-redis';
 import Redis from 'ioredis';
 
 @Injectable()
@@ -74,7 +74,7 @@ export class AppService {
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule, RedisService } from '@liaoliaots/nestjs-redis';
+import { RedisModule, RedisService } from '@hackinggrowth/nestjs-redis';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { ThrottlerStorageRedisService } from 'nestjs-throttler-storage-redis';
 
@@ -128,7 +128,7 @@ via `useFactory`:
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule, RedisModuleOptions } from '@liaoliaots/nestjs-redis';
+import { RedisModule, RedisModuleOptions } from '@hackinggrowth/nestjs-redis';
 import { ConfigService, ConfigModule } from '@nestjs/config';
 
 @Module({
@@ -157,7 +157,7 @@ via `useClass`:
 
 ```TypeScript
 import { Module, Injectable } from '@nestjs/common';
-import { RedisModule, RedisOptionsFactory, RedisModuleOptions } from '@liaoliaots/nestjs-redis';
+import { RedisModule, RedisOptionsFactory, RedisModuleOptions } from '@hackinggrowth/nestjs-redis';
 
 @Injectable()
 export class RedisConfigService implements RedisOptionsFactory {
@@ -190,7 +190,7 @@ via `extraProviders`:
 // just a simple example
 
 import { Module, ValueProvider } from '@nestjs/common';
-import { RedisModule, RedisModuleOptions } from '@liaoliaots/nestjs-redis';
+import { RedisModule, RedisModuleOptions } from '@hackinggrowth/nestjs-redis';
 
 const MyOptionsSymbol = Symbol('options');
 const MyOptionsProvider: ValueProvider<RedisModuleOptions> = {
@@ -232,7 +232,7 @@ RedisModule.forRootAsync({
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -259,7 +259,7 @@ The `RedisModule` will display a message when the server reports that it is read
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -282,7 +282,7 @@ export class AppModule {}
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -310,7 +310,7 @@ with URL:
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -338,7 +338,7 @@ export class AppModule {}
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -369,7 +369,7 @@ You can also override the `commonOptions`:
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -403,7 +403,7 @@ For example, we can listen to the error event of the redis client.
 
 ```TypeScript
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
@@ -431,7 +431,7 @@ You can change the behavior by modifying `isGlobal` parameter:
 ```TypeScript
 // cats.module.ts
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 import { CatsService } from './cats.service';
 import { CatsController } from './cats.controller';
 
@@ -485,7 +485,7 @@ unixsocketperm 777
 
 ```ts
 import { Module } from '@nestjs/common';
-import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RedisModule } from '@hackinggrowth/nestjs-redis';
 
 @Module({
     imports: [
